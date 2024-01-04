@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'style'
 
 export const Li = styled.li`
   margin-top: 20px;

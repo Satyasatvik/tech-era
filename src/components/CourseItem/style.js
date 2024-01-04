@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'style'
 
 export const Nel = styled.nav`
   background-color: #f1f5f9;
@@ -12,25 +12,6 @@ export const Logo = styled.img`
   width: 100px;
 `
 
-export const View = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background-color: #ffffff;
-  width: 80%;
-`
-export const Vi = styled.img`
-  height: 250px;
-  width: 250px;
-  margin-right: 10px;
-`
-
-export const Vd = styled.p`
-  color: #64748b;
-  font-family: 'Roboto';
-  font-size: 22px;
-`
-
 export const FailCon = styled.div`
   display: flex;
   flex-direction: column;
@@ -42,7 +23,6 @@ export const FailCon = styled.div`
 export const FailIm = styled.img`
   height: 250px;
   width: 250px;
-  margin-right: 16px;
 `
 
 export const Fh = styled.h1`
@@ -66,11 +46,13 @@ export const Fb = styled.button`
   padding: 7px;
   border-radius: 3px;
 `
-
-export const Vh = styled.h1`
-  color: #1e293b;
-  font-size: 30px;
-  font-family: 'Roboto';
-  margin-bottom: 7px;
+export const ListCon = styled.ul`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
 `
+
 export default Nel
